@@ -32,9 +32,16 @@ Add these lines to your VS Code **user** `settings.json`
 "[java]": {
     "editor.defaultFormatter": "redhat.java",
     "editor.formatOnSave": true,
+    "editor.detectIndentation": false,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
     "editor.rulers": [100]
 }
 ```
+
+The three indentation lines matter. VS Code sends its own tab size to the formatter, and
+that overrides the profile. With `detectIndentation` on, a file that already uses 8-space
+indentation keeps it, however often you format.
 
 Then run **"Java: Clean Java Language Server Workspace"** from the command palette, or
 reload VS Code, so the extension picks up the profile.

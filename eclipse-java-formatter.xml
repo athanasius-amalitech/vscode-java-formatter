@@ -43,6 +43,10 @@
         <!-- Vertical spacing: remove any blank line straight after a method's opening brace.
              A negative value means "remove existing blank lines", 0 would only stop adding them. -->
         <setting id="org.eclipse.jdt.core.formatter.number_of_blank_lines_at_beginning_of_method_body" value="-1"/>
+        <setting id="org.eclipse.jdt.core.formatter.number_of_blank_lines_at_end_of_method_body" value="-1"/>
+        <!-- The same for if/for/while/try blocks -->
+        <setting id="org.eclipse.jdt.core.formatter.number_of_blank_lines_at_beginning_of_code_block" value="-1"/>
+        <setting id="org.eclipse.jdt.core.formatter.number_of_blank_lines_at_end_of_code_block" value="-1"/>
         <setting id="org.eclipse.jdt.core.formatter.number_of_empty_lines_to_preserve" value="1"/>
 
         <!-- Every file ends with a newline -->

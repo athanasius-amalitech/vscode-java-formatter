@@ -27,7 +27,7 @@ Add these lines to your VS Code **user** `settings.json`
 (Ctrl+Shift+P, then "Preferences: Open User Settings (JSON)"):
 
 ```json
-"java.format.settings.url": "RAW_URL_PLACEHOLDER",
+"java.format.settings.url": "https://raw.githubusercontent.com/athanasius-amalitech/vscode-java-formatter/main/eclipse-java-formatter.xml",
 "java.format.settings.profile": "AmaliTech Java",
 "[java]": {
     "editor.defaultFormatter": "redhat.java",
